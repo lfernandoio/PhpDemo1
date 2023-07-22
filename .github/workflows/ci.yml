@@ -18,4 +18,4 @@ jobs:
         with:
           bootstrap: vendor/autoload.php
           configuration: test/phpunit.xml
-          args: Carlos
+          args: test --coverage text
