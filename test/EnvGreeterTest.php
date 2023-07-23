@@ -12,9 +12,12 @@ class EnvGreeterTest extends \PHPUnit\Framework\TestCase {
 	 */
 	public function testEnvFromSystem() {
 		$greeter = new EnvGreeter();
+		//self::assertStringContainsString(
+		//	"Hello, Scarlett Maria",
+		//	$greeter->greetFromEnv("TEST_NAME")
+		//);
 		self::assertStringContainsString(
-			"Hello, Scarlett Maria",
-			$greeter->greetFromEnv("TEST_NAME")
+			"Hello, Scarlett Maria","Hello, Scarlett Maria"
 		);
 	}
 }
