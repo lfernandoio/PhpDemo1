@@ -2,7 +2,7 @@ on: push
 name: FTP
 jobs:
   web-deploy:
-    name: 🎉 Deploy
+    name: Despliegue FTP
     runs-on: ubuntu-latest
     steps:
     - name: 🚚 Get latest code
