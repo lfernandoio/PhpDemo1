@@ -5,9 +5,9 @@ jobs:
     name: Despliegue FTP
     runs-on: ubuntu-latest
     steps:
-    - name: 🚚 Get latest code
+    - name: Get latest code
       uses: actions/checkout@v3          
-    - name: 📂 Sync files
+    - name: Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
         server: ftp.arielgos.com
