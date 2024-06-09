@@ -10,6 +10,6 @@ jobs:
     - name: Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
-        server: ftp.arielgos.com
-        username: temporal@arielgos.com
-        password: temp.2023.07
+        server: us-east-1.sftpcloud.io
+        username: lfibarrao
+        password: 8wj5hVmm0UKnopIhKcGYdSoqfzhFh8iU
